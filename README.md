@@ -22,6 +22,7 @@ Please contact with primary developer (Richard Zhao, Ph.D. candidate, Dept. Math
 
 ## Main. R
 Including basic functions for data sorting & formatting, PGFs & modeling tool functions and all prediction functions for percolation methods.
+Except the uncertain corrections in Multiple type network percolation method, the functions here are all tested and verified with original article results.
 
 Required Packages and Environment: pracma gsl deSolve
 
@@ -31,6 +32,7 @@ PGFs & Modeling tools functions: PGFG0 PGFD1G0 PGFD2G0 Kn PGFG1 PGFD1G1 ueqn
 
 Typical bond percolation method prediction: Tconst_Neman Tconst_exp TypProc
 
-Multiple type network percolation method prediction (with uncertain correction of the original method): P2u_polar P2s_polar Pl2_polar TypProc_Polar P2_leaky Q2_leaky Tmatrix PGFdf1_leaky PGFdf2_leaky s_leaky fsys_soln ES_leaky TypProc_leaky
+Multiple type network percolation method prediction (with some uncertain corrections of the original method): P2u_polar P2s_polar Pl2_polar TypProc_Polar P2_leaky Q2_leaky Tmatrix PGFdf1_leaky PGFdf2_leaky s_leaky fsys_soln ES_leaky TypProc_leaky
 
 Modified network percolation method prediction: ModProc_CM
+
