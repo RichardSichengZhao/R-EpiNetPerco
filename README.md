@@ -4,9 +4,7 @@ A package in R for modeling infectious diease transmission on population with so
 The prediction functions are developed based on following works withmodifications:
 
 1. Typical bond percolation method original developed by M.E.J Newman.
-
 2. Multiple type network percolation method by S. Bansal & L.A. Meyers.
-
 3. Modified network percolation process with disease dynamics by J.C. Miller, A.C. Slim & E.M.Volz.
 
 Also include different random network generator with specified degree sequence, based on following algrorithms with modifications:
