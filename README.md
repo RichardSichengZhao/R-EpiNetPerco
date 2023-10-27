@@ -1,5 +1,6 @@
 # R-EpiNetPerco
-A package in R for mathematical epidemiology modeling under SIR based complex network models with percolation process method and its modifications.
+A package in R for modeling infectious diease transmission on population with social and biological heterogenity, based on SIR-compartmental complex epidemiology random networks with percolation process method and its modifications.
+
 Developing based on the typical bond percolation method original developed by M.E.J Newman, Multiple type network percolation method by S. Bansal & L.A. Meyers, Modified network percolation process with disease dynamics by J.C. Miller, A.C. Slim & E.M.Volz, with modifications.
 Also include different random network generator with specified degree sequence, based on orignal algorithms of developers, sequential importance sampling algorithm by J. Blitzstein & P. Diaconis, and asymptotic sequential algorithm by M. Bayati, J.H. Kim & A. Saberi, with modification.
 The disease simulation function is developed based on Doob–Gillespie algorithm (Stochastic Simulation Algorithm, SSA) 
