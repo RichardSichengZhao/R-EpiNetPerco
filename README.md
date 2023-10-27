@@ -21,5 +21,16 @@ Looking forward to comments, issues, bug reports, using opinions and discussions
 Please contact with primary developer (Richard Zhao, Ph.D. candidate, Dept. Math & Stat, Queen's University, Kingston, ON, Canada) by email 20sz11@queensu.ca
 
 ## Main. R
-Including basic functions for data sorting & formatting, PGFs & modeling parameter functions and all functions for percolation methods.
-Data sorting & 
+Including basic functions for data sorting & formatting, PGFs & modeling tool functions and all prediction functions for percolation methods.
+
+Required Packages and Environment: pracma gsl deSolve
+
+Data sorting & formating functions: DegreeDF DDistPK
+
+PGFs & Modeling tools functions: PGFG0 PGFD1G0 PGFD2G0 Kn PGFG1 PGFD1G1 ueqn  
+
+Typical bond percolation method prediction: Tconst_Neman Tconst_exp TypProc
+
+Multiple type network percolation method prediction (with uncertain correction of the original method): P2u_polar P2s_polar Pl2_polar TypProc_Polar P2_leaky Q2_leaky Tmatrix PGFdf1_leaky PGFdf2_leaky s_leaky fsys_soln ES_leaky TypProc_leaky
+
+Modified network percolation method prediction: ModProc_CM
