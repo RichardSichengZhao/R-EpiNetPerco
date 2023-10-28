@@ -35,7 +35,7 @@ Multiple type network percolation method prediction (with some uncertain correct
 
 Modified network percolation method prediction: ModProc_CM
 
-## Random Network Generator with Specified Degree Sequence (In Developing)
+## Random Network Generator with Specified Degree Sequence 
 Currently, there is not a well reconized optimal/best alogrithm to realize networks generally under all specified degree sequence.
 There exist many different algorithms under several different theories and ideas.
 Based on the core mathematical theories and idea, these methods can be generally classified into the following 4 family with each of its own pros and cons: Configuration model algorithms, Sequential algorithm, Switching-based algorithms and Markov chain algorithms.
@@ -67,7 +67,7 @@ Its mainly for illustration the idea of Blitzstein and Diaconis who originally d
 It come with an extra sampling procedure to adjust the simulation result to mathematically close to uniform distributed, while increasing some calculation cost.
 An optimized version with several modification are provided by Algorithm 2.1
 
-### [RandomNetworkGenerator_Algorithm2.1.R](RandomNetworkGenerator_Algorithm2.1.R) (In Developing): Optimized version of Algorithm 2.0
+### (In Developing) [RandomNetworkGenerator_Algorithm2.1.R](RandomNetworkGenerator_Algorithm2.1.R) : Optimized version of Algorithm 2.0
 With several modification on Algorithm 2.0, it proiveds better calculation efficiency than 2.0.
 Currently this include the Durfee number opitmization on eachround of ECchecking and lower down the candidate list length within a single host vertex by reapply list from last round for each round of generation.
 These modifications significantly increase the efficiency for large networks.
@@ -85,14 +85,14 @@ From testing, it performs best for relatively smaller network with concentrated 
 The problem is the restarting time is much longer for large degree vertices at the beginning.
 The sampling techinique should be similar with Algorithm 2.1.
 
-### RandomNetworkGenerator_Algorithm4.R (In Developing, not uploaded yet): Asymptotic Uniform Algorithm based on M. Bayati, J.H. Kim & A. Saberi
+### (In Developing, not uploaded yet) RandomNetworkGenerator_Algorithm4.R : Asymptotic Uniform Algorithm based on M. Bayati, J.H. Kim & A. Saberi
 Theoritically, this algorithm seems to be the "best" in general large enough networks.
 It does not require sampling techniques for the simulation results, thus guarantee asyptotically uniform, but require a relatively strict condition on network size, based on maximal degree of the sequence.
 So it might still be not ideal for smaller size networks or networks with long tail degree distribution, thus other algorithm are still useful in application.
 
 This algorithm requires better understanding on random network theories, thus we are trying to development it soon after the submission of the theoretical paper.
 
-### General Optimization of data structure and parallel computation (Ongoing, looking for cooperation)
+### (Ongoing, looking for cooperation) General Optimization of data structure and parallel computation 
 The generation and epidemic simulation are built based on sparce matrix at the beginning.
 While it is easiear to understand and modify, the matrix data form in R might not be a good choice to store data, considering the limitation of comupting resourses, especially RAM, so the network size is highly limited.
 It might also slows down the calculation speed when loops and iterations are involved.
