@@ -3,6 +3,7 @@ A package in R for modeling infectious diease transmission on population with so
 
 ## Developer & Contributor
 Sicheng (Richard) Zhao, M.Sc., Ph.D. Candidate, Dept. of Mathematics and Statistics, Queen's University (20sz11@queensu.ca)
+
 Felicia M. G. Magpantay, Ph.D., Associate Professor, Dept. of Mathematics and Statistics, Queen's University (Felicia.Magpantay@queensu.ca)
 
 ## Introduction
