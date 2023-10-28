@@ -24,7 +24,9 @@ The package is developed under R version 4.2.2
 
 ## Required R Packages and Environment: 
 [pracma](https://cran.r-project.org/web/packages/pracma/index.html)
+
 [gsl](https://cran.r-project.org/web/packages/gsl/index.html)
+
 [deSolve](https://cran.r-project.org/web/packages/deSolve/)
 
 # Looking for comments and cooperations! 
