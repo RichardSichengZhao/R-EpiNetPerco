@@ -2,9 +2,9 @@
 A package in R for modeling infectious diease transmission on population with social and biological heterogenity, based on SIR-compartmental complex epidemiology random networks with percolation process method and its modifications.
 
 ## Developer & Contributor
-Sicheng (Richard) Zhao, M.Sc., Ph.D. Candidate, Dept. of Mathematics and Statistics, Queen's University (20sz11@queensu.ca)
+Sicheng (Richard) Zhao \[aut, cre\], M.Sc., Ph.D. Candidate, Dept. of Mathematics and Statistics, Queen's University (20sz11@queensu.ca)
 
-Felicia M. G. Magpantay, Ph.D., Associate Professor, Dept. of Mathematics and Statistics, Queen's University (Felicia.Magpantay@queensu.ca)
+Felicia M. G. Magpantay \[aut\], Ph.D., Associate Professor, Dept. of Mathematics and Statistics, Queen's University (Felicia.Magpantay@queensu.ca)
 
 ## Introduction
 The prediction functions are developed based on following works withmodifications:
@@ -22,7 +22,10 @@ The disease simulation function is developed based on Doob–Gillespie algorithm
 
 The package is developed under R version 4.2.2
 
-## Required Packages and Environment: pracma gsl deSolve
+## Required R Packages and Environment: 
+[pracma](https://cran.r-project.org/web/packages/pracma/index.html)
+[gsl](https://cran.r-project.org/web/packages/gsl/index.html)
+[deSolve](https://cran.r-project.org/web/packages/deSolve/)
 
 # Looking for comments and cooperations! 
 Developing, optimizing and testing in progress now! 
