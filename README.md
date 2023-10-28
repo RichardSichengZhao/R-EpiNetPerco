@@ -25,7 +25,10 @@ Please contact with primary developer (Richard Zhao, Ph.D. candidate, Dept. Math
 
 ## Required Packages and Environment: pracma gsl deSolve
 
-## [PercolationProcess.R] (PercolationProcess.R)
+# File List
+
+## Prediction Functions based on Percolation Process
+### [PercolationProcess.R] (PercolationProcess.R)
 Including basic functions for data sorting & formatting, PGFs & modeling tool functions and all prediction functions for percolation methods.
 Except the uncertain corrections in Multiple type network percolation method, the functions here are all tested and verified with original article results.
 Data sorting & formating functions: DegreeDF DDistPK
