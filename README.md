@@ -22,7 +22,7 @@ Please contact with primary developer (Richard Zhao, Ph.D. candidate, Dept. Math
 
 ## Required Packages and Environment: pracma gsl deSolve
 
-## Main. R [a relative link](Main.R)
+## [Main. R] (Main.R)
 Including basic functions for data sorting & formatting, PGFs & modeling tool functions and all prediction functions for percolation methods.
 Except the uncertain corrections in Multiple type network percolation method, the functions here are all tested and verified with original article results.
 Data sorting & formating functions: DegreeDF DDistPK
@@ -58,16 +58,16 @@ In each algorithms, provides with and Erdos-Gallai condition checking function m
 
 These algorithm are temporary, we are still developing these generators while comparing their performance (and with other alorithms) under testing, to figure out if there is an optimal choice for our models, or if there is some systematical principle to choose algorithms under given condition.
 
-### RandomNetworkGenerator_Algorithm1.R : Original algorithm developed by us, inspired by Newman's algorithm. 
+### [RandomNetworkGenerator_Algorithm1.R](RandomNetworkGenerator_Algorithm1.R) : Original algorithm developed by us, inspired by Newman's algorithm. 
 Its is fastest in all scenario, but has random failure, lack of rigorous analysis of distribution result.
 It is used to quickly generate relatively larger size networks for testing and verification, and also to illustrate Newman's idea for comparision.
 
-### RandomNetworkGenerator_Algorithm2.0.R : Sequential importance algorithm with importance sampling technique, developed with some modification, based on J. Blitzstein & P. Diaconis.
+### [RandomNetworkGenerator_Algorithm2.0.R](RandomNetworkGenerator_Algorithm2.0.R) : Sequential importance algorithm with importance sampling technique, developed with some modification, based on J. Blitzstein & P. Diaconis.
 Its mainly for illustration the idea of Blitzstein and Diaconis who originally develope the first squential algorithm for general degree sequences.
 It come with an extra sampling procedure to adjust the simulation result to mathematically close to uniform distributed, while increasing some calculation cost.
 An optimized version with several modification are provided by Algorithm 2.1
 
-### RandomNetworkGenerator_Algorithm2.1.R (In Developing): Optimized version of Algorithm 2.0
+### [RandomNetworkGenerator_Algorithm2.1.R](RandomNetworkGenerator_Algorithm2.1.R) (In Developing): Optimized version of Algorithm 2.0
 With several modification on Algorithm 2.0, it proiveds better calculation efficiency than 2.0.
 Currently this include the Durfee number opitmization on eachround of ECchecking and lower down the candidate list length within a single host vertex by reapply list from last round for each round of generation.
 These modifications significantly increase the efficiency for large networks.
@@ -76,7 +76,7 @@ We are still trying to include the improvement inspired by Moseman in the next s
 From testing, it performs best when generating network not so "sparse"---for degree sequences with higher mean or with longer tail (like powerlaw distribtion).
 The corresponding version of importance sampling technique are also in developing now.
 
-### RandomNetworkGenerator_Algorithm3.R : Mixture algorithm of 1 and 2
+### [RandomNetworkGenerator_Algorithm3.R](RandomNetworkGenerator_Algorithm3.R) : Mixture algorithm of 1 and 2
 The algorithm is inspired by both Algorithm 1 and 2.1, which intuitively should be equivalent to Algorithm 2, but might need rigorous proof.
 The idea is generate candidate list for each host vertex all at once and then check the EG condition, while guarantee success in each round of generation.
 This significantly reduce the frequency of sampling and EG checking, however, leads to longer restrarting procedure if the sampling is failed.
@@ -100,7 +100,7 @@ We are currently working on, together with collaborating data scientists and pro
 Another ongoing improvment will be optimize these generators and the whole package for parallel computing in multple servers and computing clusters, so simulation and verification involving large amount of simulations could be finished faster and on larger network size. 
 
 
-## EpidemicDynamicSimulator.R
+## [EpidemicDynamicSimulator.R](EpidemicDynamicSimulator.R)
 Include the epidemic dynamic simulator function GilAlgo, which is developed based on the well-known widely used Doob–Gillespie algorithm (Stochastic Simulation Algorithm, SSA).
 This simulator provides dynamic informations of a randomly initiated disease on a given network, represented now by a sparse matrix, with the SIR disease parameters.
 Curent version is tested but might need to be optimized after the data struture optimization on network generators.
