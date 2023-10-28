@@ -1,6 +1,11 @@
 # R-EpiNetPerco
 A package in R for modeling infectious diease transmission on population with social and biological heterogenity, based on SIR-compartmental complex epidemiology random networks with percolation process method and its modifications.
 
+## Developer & Contributor
+Richard Zhao, Ph.D. candidate, Departement of Mathematics & Statistics, Queen's University, Kingston, ON, Canada
+
+
+## Introduction
 The prediction functions are developed based on following works withmodifications:
 
 1. Typical bond percolation method original developed by M.E.J Newman.
@@ -16,14 +21,16 @@ The disease simulation function is developed based on Doob–Gillespie algorithm
 
 The package is developed under R version 4.2.2
 
+## Required Packages and Environment: pracma gsl deSolve
+
 # Looking for comments and cooperations! 
 Developing, optimizing and testing in progress now! 
 
 A realted paper for systematic interperation of theoritical background, methods and modifications will be submitted for review soon. 
 Looking forward to comments, issues, bug reports, using opinions and discussions from all users. 
-Please contact with primary developer (Richard Zhao, Ph.D. candidate, Dept. Math & Stat, Queen's University, Kingston, ON, Canada) by email 20sz11@queensu.ca
+Please contact with primary developer by email 20sz11@queensu.ca
 
-## Required Packages and Environment: pracma gsl deSolve
+
 
 # File List
 
