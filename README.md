@@ -119,7 +119,7 @@ It might also slows down the calculation speed when loops and iterations are inv
 We are currently working on, together with collaborating data scientists and programmers, is to optimize the data structure in these algorithms to enlarge the capacity of network size for same given RAM limitation and perhaps accelate the calculation.
 Another ongoing improvment will be optimize these generators and the whole package for parallel computing in multple servers and computing clusters, so simulation and verification involving large amount of simulations could be finished faster and on larger network size. 
 
-
+# Epidemic Outbreak Simulator on Network
 ## [EpidemicDynamicSimulator.R](EpidemicDynamicSimulator.R)
 Include the epidemic dynamic simulator function GilAlgo, which is developed based on the well-known widely used Doob–Gillespie algorithm (Stochastic Simulation Algorithm, SSA).
 This simulator provides dynamic informations of a randomly initiated disease on a given network, represented now by a sparse matrix, with the SIR disease parameters.
