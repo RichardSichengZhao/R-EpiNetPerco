@@ -16,13 +16,16 @@ The disease simulation function is developed based on Doob–Gillespie algorithm
 
 The package is developed under R version 4.2.2
 
-Developing, optimizing and testing in progress now! A realted paper for systematic interperation of theoritical background, methods and modifications will be submitted for review soon. 
+# Looking for comments and cooperations! 
+Developing, optimizing and testing in progress now! 
+
+A realted paper for systematic interperation of theoritical background, methods and modifications will be submitted for review soon. 
 Looking forward to comments, issues, bug reports, using opinions and discussions from all users. 
 Please contact with primary developer (Richard Zhao, Ph.D. candidate, Dept. Math & Stat, Queen's University, Kingston, ON, Canada) by email 20sz11@queensu.ca
 
 ## Required Packages and Environment: pracma gsl deSolve
 
-## [Main.R] (Main.R)
+## [PercolationProcess.R] (PercolationProcess.R)
 Including basic functions for data sorting & formatting, PGFs & modeling tool functions and all prediction functions for percolation methods.
 Except the uncertain corrections in Multiple type network percolation method, the functions here are all tested and verified with original article results.
 Data sorting & formating functions: DegreeDF DDistPK
