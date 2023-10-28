@@ -2,8 +2,8 @@
 A package in R for modeling infectious diease transmission on population with social and biological heterogenity, based on SIR-compartmental complex epidemiology random networks with percolation process method and its modifications.
 
 ## Developer & Contributor
-Richard Zhao, Ph.D. candidate, Departement of Mathematics & Statistics, Queen's University, Kingston, ON, Canada
-
+Sicheng (Richard) Zhao, M.Sc., Ph.D. Candidate, Dept. of Mathematics and Statistics, Queen's University (20sz11@queensu.ca)
+Felicia M. G. Magpantay, Ph.D., Associate Professor, Dept. of Mathematics and Statistics, Queen's University (Felicia.Magpantay@queensu.ca)
 
 ## Introduction
 The prediction functions are developed based on following works withmodifications:
