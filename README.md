@@ -119,16 +119,16 @@ In each algorithms, provides with and Erdos-Gallai condition checking function m
 
 These algorithms are temporary, we are still developing these generators while comparing their performance (and with other algorithms) under testing, to figure out if there is an optimal choice for our models, or if there is some systematical principle to choose algorithms under given condition.
 
-### [RandomNetworkGenerator_Algorithm1.R](RandomNetworkGenerator_Algorithm1.R): Original algorithm developed by us, inspired by Newman's algorithm. 
+### [RandomNetworkGenerator_Algorithm1.R](RandomNetworkGenerator_Algorithm1.R): Original algorithm developed by developers, inspired by Newman 
 It is fastest in all scenario, but has random failure, lack of rigorous analysis of distribution result.
 It is used to quickly generate relatively larger size networks for testing and verification, and also to illustrate Newman's idea for comparison.
 
-### [RandomNetworkGenerator_Algorithm2.0.R](RandomNetworkGenerator_Algorithm2.0.R): Sequential importance algorithm with importance sampling technique, developed with some modification, based on J. Blitzstein & P. Diaconis.
+### [RandomNetworkGenerator_Algorithm2.0.R](RandomNetworkGenerator_Algorithm2.0.R): Sequential importance algorithm with importance sampling technique, developed with some modification, based on J. Blitzstein & P. Diaconis
 Its mainly for illustration the idea of Blitzstein and Diaconis who originally develop the first sequential algorithm for general degree sequences.
 It come with an extra sampling procedure to adjust the simulation result to mathematically close to uniform distributed, while increasing some calculation cost.
 An optimized version with several modification are provided by Algorithm 2.1
 
-### [RandomNetworkGenerator_Algorithm2.1.R](RandomNetworkGenerator_Algorithm2.1.R) (In Developing): Optimized version of Algorithm 2.0
+### [RandomNetworkGenerator_Algorithm2.1.R](RandomNetworkGenerator_Algorithm2.1.R) (Developing in Progress): Optimized version of Algorithm 2.0
 With several modification on Algorithm 2.0, it provides better calculation efficiency than 2.0.
 Currently this include the Durfee number optimization on each round of Erdős–Gallai condition checking and lower down the candidate list length within a single host vertex by reapply list from last round for each round of generation.
 These modifications significantly increase the efficiency for large networks.
@@ -146,7 +146,7 @@ From testing, it performs best for relatively smaller network with concentrated 
 The problem is the restarting time is much longer for large degree vertices at the beginning.
 The sampling technique should be similar with Algorithm 2.1.
 
-### RandomNetworkGenerator_Algorithm4.R (In Developing, not uploaded yet): Asymptotic Uniform Algorithm based on M. Bayati, J.H. Kim & A. Saberi
+### RandomNetworkGenerator_Algorithm4.R (Developing in Progress, not uploaded yet): Asymptotic Uniform Algorithm based on M. Bayati, J.H. Kim & A. Saberi
 Theoretically, this algorithm seems to be the "best" in general large enough networks.
 It does not require sampling techniques for the simulation results, thus guarantee asymptotically uniform, but require a relatively strict condition on network size, based on maximal degree of the sequence.
 So it might still be not ideal for smaller size networks or networks with long tail degree distribution, thus other algorithm are still useful in application.
