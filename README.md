@@ -10,7 +10,7 @@ Felicia M. G. Magpantay \[aut\], Ph.D., Associate Professor, Dept. of Mathematic
 The prediction functions are developed based on following works with modifications:
 
 1. Typical bond percolation method original developed by M.E.J Newman.
-  [Newman, M. E. J. (2002). Spread of epidemic disease on networks, Phys. Rev. E 66, 016128.](https://journals.aps.org/pre/pdf/10.1103/PhysRevE.66.016128/)
+  [Newman, M. E. J. (2002). Spread of epidemic disease on networks, Phys. Rev. E 66, 016128.](https://journals.aps.org/pre/pdf/10.1103/PhysRevE.66.016128)
 
 2. Multiple type network percolation method by S. Bansal & L.A. Meyers.
   [Bansal, S. & Meyers, L. A. (2012). The impact of past epidemics on future disease dynamics, Journal of Theoretical Biology 309, 176–184.](https://www.bio.utexas.edu/research/meyers/_docs/publications/BansalJTB12.pdf)
