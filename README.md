@@ -75,7 +75,7 @@ CRAN package submission
 
 ### 5th phase: Test and optimization with real application (2023 Sep - 2024 Jun) \[initiated\] 
 
-Collaboration with KFL&A Public Health for application with real community data
+Collaboration with Knowldege Management Team of KFL&A Public Health for application with real community data
 
 Optimization based on feed back
 
