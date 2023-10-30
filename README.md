@@ -51,27 +51,27 @@ Please contact with primary developer by email 20sz11@queensu.ca
 
 \[Finished\] Basic theoretical structure, prediction functions, network generator and outbreak simulator and first round of function testing
 
-### 2nd phase: Verification and network generator algorithm optimization (2023 Jun - 2023 Dec) \[on going\]:
+### 2nd phase: Verification and network generator algorithm optimization (2023 Jun - 2023 Dec) \[Ongoing\]:
 
 \[Finished\] Verify testing results with existing literature, testing on common degree distribution
 
-\[On going\] Enrich options of network generator for different cases
+\[Ongoing\] Enrich options of network generator for different cases
 
 ### 3rd phase: Data Structure and parallel computing optimization (2023 Nov - 2024 Feb) \[initiated\]
 
-\[On going\]Finding better data structure to enlarge network size capacity under resourse limitation
+\[Ongoing\]Finding better data structure to enlarge network size capacity under resourse limitation
 
 Optimize codes for parallel computing and calculation efficiency
 
-### 4th phase: Publication, Documentation and Promotion (2023 Jun - 2024 Aug) \[on going\]
+### 4th phase: Publication, Documentation and Promotion (2023 Jun - 2024 Aug) \[Ongoing\]
 
-\[On going\] GitHub Repository creation
+\[Ongoing\] GitHub Repository creation
 
-\[On going\] User Manual and Documentation
+\[Ongoing\] User Manual and Documentation
 
 CRAN package submission
 
-\[On going\] Package promotion within social media, academic conferences and communications
+\[Ongoing\] Package promotion within social media, academic conferences and communications
 
 ### 5th phase: Test and optimization with real application (2023 Sep - 2024 Jun) \[initiated\] 
 
