@@ -10,24 +10,34 @@ Felicia M. G. Magpantay \[aut\], Ph.D., Associate Professor, Dept. of Mathematic
 The prediction functions are developed based on following works with modifications:
 
 1. Typical bond percolation method original developed by M.E.J Newman.
+  [Newman, M. E. J. (2002). Spread of epidemic disease on networks, Phys. Rev. E 66, 016128.](https://journals.aps.org/pre/pdf/10.1103/PhysRevE.66.016128)
+
 2. Multiple type network percolation method by S. Bansal & L.A. Meyers.
+  [Bansal, S. & Meyers, L. A. (2012). The impact of past epidemics on future disease dynamics, Journal of Theoretical Biology 309, 176–184.](/https://www.bio.utexas.edu/research/meyers/_docs/publications/BansalJTB12.pdf)
+
 3. Modified network percolation process with disease dynamics by J.C. Miller, A.C. Slim & E.M.Volz.
+  [Miller, J. C., Slim, A. C. & Volz, E. M. (2012). Edge-based compartmental modelling for infectious disease spread, Journal of The Royal Society Interface 9, 890–906.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3306633/pdf/rsif20110403.pdf)
 
 Also include different random network generator with specified degree sequence, based on following algorithms with modifications:
 1. Original test algorithms by developers.
+
 2. Sequential importance sampling algorithm by J. Blitzstein & P. Diaconis.
+[Blitzstein, J. & Diaconis, P. (2011). A sequential importance sampling algorithm for generating random graphs with prescribed degrees, Internet mathematics 6, 489–522.](https://statweb.stanford.edu/~cgates/PERSI/papers/GraphAlgorithm.pdf)
+
 3. Asymptotic sequential algorithm by M. Bayati, J.H. Kim & A. Saberi, with modification.
+[Bayati, M., Kim, J. H. & Saberi, A. (2010). A sequential algorithm for generating random graphs, Algorithmica 58, 860–910.](https://arxiv.org/abs/cs/0702124)
 
 The disease simulation function is developed based on Doob–Gillespie algorithm (Stochastic Simulation Algorithm, SSA) 
 
-The package is developed under R version 4.2.2
 
-## Required R Packages and Environment: 
-[pracma](https://cran.r-project.org/web/packages/pracma/index.html)
+## Dependent R Packages and Environment:
+The package is developed under R version 4.2.2 and the dependent packages are:
 
-[gsl](https://cran.r-project.org/web/packages/gsl/index.html)
+1. [pracma](https://cran.r-project.org/web/packages/pracma/index.html)
 
-[deSolve](https://cran.r-project.org/web/packages/deSolve/)
+2. [gsl](https://cran.r-project.org/web/packages/gsl/index.html)
+
+3. [deSolve](https://cran.r-project.org/web/packages/deSolve/)
 
 # Looking for comments and cooperations! 
 Developing, optimizing and testing are still in progress now!
@@ -154,7 +164,7 @@ Another ongoing improvement will be optimizing these generators and the whole pa
 ### [EpidemicDynamicSimulator.R](EpidemicDynamicSimulator.R)
 Include the epidemic dynamic simulator function GilAlgo, which is developed based on the well-known widely used Doob–Gillespie algorithm (Stochastic Simulation Algorithm, SSA).
 This simulator provides dynamic information of a randomly initiated disease on a given network, represented now by a sparse matrix, with the SIR disease parameters.
-Curent version is tested but might need to be optimized after the data structure optimization on network generators.
+Current version is tested but might need to be optimized after the data structure optimization on network generators.
 
 
 
