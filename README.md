@@ -39,7 +39,7 @@ The package is developed under R version 4.2.2 and the dependent packages are:
 
 3. [deSolve](https://cran.r-project.org/web/packages/deSolve/)
 
-# Looking for comments and cooperations! 
+# Looking for comments and collaboration! 
 Developing, optimizing and testing are still in progress now!
 
 Looking forward to comments, issues, bug reports, using opinions and discussions from all users. 
@@ -153,7 +153,7 @@ So it might still be not ideal for smaller size networks or networks with long t
 
 This algorithm requires better understanding on random network theories, thus we are trying to development it soon after the submission of the theoretical paper.
 
-### General Optimization of data structure and parallel computation (Ongoing, looking for cooperation)
+### General Optimization of data structure and parallel computation (Ongoing, looking for collaboration)
 The generation and epidemic simulation are built based on sparce matrix at the beginning.
 While it is easier to understand and modify, the matrix data form in R might not be a good choice to store data, considering the limitation of computing resources, especially RAM, so the network size is highly limited.
 It might also slows down the calculation speed when loops and iterations are involved.
